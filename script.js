@@ -27,3 +27,16 @@ function randomNumbers(n){
     return result;
 }
 
+function randomBetween (min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+console.log(new Date());
+
+let currenDate = new Date();
+currenDate.setDate(currenDate.getDate() + 73);
+console.log(currenDate);
+
+function formatDate(date) {
+    let days = ["Воскресенье"]
+}
